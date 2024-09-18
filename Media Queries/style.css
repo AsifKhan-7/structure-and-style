@@ -1,0 +1,36 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Inter",Arial, sans-serif;
+}
+
+@font-face {
+  font-family: "Inter";
+  src: url("../Font/inter-regular-webfont.woff") format("woff");
+  font-display: swap;
+}
+
+.demo {
+  margin: 40px 0 0 20px;
+  font-weight: 600;
+  text-decoration:underline 2px wavy #f00; /* How text-decoration can use */
+}
+
+
+ul {
+  height: 100px;
+  background-color: #a5f74d;
+  margin: 30px 0 0 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+  list-style: none;
+  color: #6c6969;
+}
+
+/* This how attribute selector used  */
+[class] {
+  font-size: 20px;
+}
