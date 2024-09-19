@@ -1,0 +1,26 @@
+body {
+  margin: 0;
+}
+p {
+  background-color: #424242;
+  color: #fff;
+  width: 300px;
+  height: 100px;
+  padding: 25px;
+  box-sizing: border-box;
+  border: 10px solid rgb(213, 141, 27);
+  margin: 25px;
+}
+
+.html {
+  background-color: cornflowerblue;
+  display: inline-block;
+  width: 300px;
+  height: 200px;
+  text-align: center;
+  padding: 25px;
+}
+
+div {
+  background-color: darkgoldenrod;
+}

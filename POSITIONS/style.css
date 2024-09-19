@@ -1,0 +1,50 @@
+* {
+  font-family: "Inter", Arial, Helvetica, sans-serif;
+}
+
+@font-face {
+  font-family: "Inter";
+  src: url("../Font/inter-regular-webfont.woff") format("woff");
+  font-display: swap;
+}
+
+div {
+  position: relative;
+  background-color: turquoise;
+  /* inset: 5px 5px 0 0; */
+}
+ul {
+  background-color: cadetblue;
+  position: relative;
+  height: 600px;
+}
+
+.html-ele {
+  position: sticky;
+  background-color: purple;
+  top: 0;
+}
+.element {
+  background-color: crimson;
+  position: absolute;
+
+  /* top: 5px;
+  left: 5px;
+  right: 5px;
+  bottom: 5px; */
+  /* inset: 5px; */
+  top: 120%;
+  left: 30%;
+  right: 30%;
+  /* transform: translate(-50%, -50%); */
+}
+
+.js-ele {
+  background-color: darkblue;
+  position: fixed;
+  top:12%;
+  left:12%;
+  right: 12%;
+  background-color: deeppink;
+  
+}
