@@ -1,0 +1,78 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Inter", sans-serif;
+  margin: 0;
+}
+
+@font-face {
+  font-family: "Inter";
+  src: url("../Font/inter-regular-webfont.woff") format("woff"),
+    url("../Font/inter-regular-webfont.woff2") format("woff2");
+  font-display: swap;
+}
+
+h1 {
+  text-align: center;
+}
+
+.parent {
+  flex-wrap: wrap;
+  gap: 15px 0;
+  /* padding: 10px;*/
+  border: 4px solid indianred; 
+  display: flex;
+  /* justify-content: center; */
+  /* justify-content: space-between; */
+  /* height: 50vh; */
+  height: 400px;
+  /* align-items: stretch;  It's by defalut */
+  /* align-items: center; */
+  /* flex-direction: column; */
+}
+
+.parent span {
+  /* border: 4px solid cadetblue; */
+  background-color: cadetblue;
+  /* flex-shrink: 0; Prevents the element to shrink by its parent */
+  /* width: 200px;
+  height: 300px; */
+  /* flex-grow: 1; */
+  /* width: 100%; */
+  /* flex-basis: 100%;   item ka initial size main axis ke along specify karti hai. Yeh size tab apply hota hai jab flex container mein space distribute ki jaati hai */
+  /* flex-basis: 100px; */
+}
+
+.parent p {
+  /* border: 4px solid darkkhaki; */
+  background-color: darkkhaki;
+  /* margin-left: auto;
+  margin-right: auto;
+  margin-top: auto;
+  margin-bottom: auto; */
+  margin: auto;
+  /* margin-top: 0;
+  margin-bottom: 0; */
+  /* flex-shrink: 0;  */
+  /* width: 100%; */
+  /* flex-basis: 100%; */
+  /* flex-basis: 100px; */
+}
+
+.parent a {
+  /* border: 4px solid yellowgreen; */
+  background-color: yellowgreen;
+  /* flex-shrink: 0;  */
+  /* flex-grow: 1; */
+  /* width: 400px; */
+  /* width: 100%; */
+  height: 150px;
+  /* flex-basis: 100%; */
+  /* flex-basis: 100px; */
+}
+
+.parent > * {
+  width:200px;
+}
