@@ -1,24 +1,23 @@
-* {
+/* * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
   font-family: "Inter",Arial, sans-serif;
-}
+} */
 
-@font-face {
+/* @font-face {
   font-family: "Inter";
   src: url("../Font/inter-regular-webfont.woff") format("woff");
   font-display: swap;
-}
+} */
 
-.demo {
+/* .demo {
   margin: 40px 0 0 20px;
   font-weight: 600;
-  text-decoration:underline 2px wavy #f00; /* How text-decoration can use */
-}
+  text-decoration:underline 2px wavy #f00;
+} */
 
-
-ul {
+/* ul {
   height: 100px;
   background-color: #a5f74d;
   margin: 30px 0 0 0;
@@ -28,9 +27,80 @@ ul {
   gap: 5px;
   list-style: none;
   color: #6c6969;
-}
+} */
 
 /* This how attribute selector used  */
-[class] {
+/* [class] {
   font-size: 20px;
+} */
+
+.square {
+  width: 300px;
+  height: 300px;
+  background-color: #414141;
+  border: 25px solid rgba(8, 106, 244, 0.865);
+  print-color-adjust: exact;
+  -webkit-print-color-adjust: exact;
+}
+
+/* @media print {
+  h1 {
+    font-size: 150px;
+    color: rgba(244, 17, 81, 0.865);
+    font-style: italic;
+    text-align: center;
+  }
+  .square {
+    border: 25px solid rgba(244, 17, 81, 0.865);
+    background-color: #77cd96;
+    border-radius: 50%;
+  }
+} */
+
+/* @media (width > 450px) {
+  
+  .square {
+    border: 25px solid rgba(244, 17, 81, 0.865);
+    background-color: #77cd96;
+    border-radius: 50%;
+  }
+} */
+
+
+/* @media (max-width:600px) {
+  .square {
+    border: 25px solid rgba(244, 17, 81, 0.865);
+    background-color: #77cd96;
+    border-radius: 50%;
+    transition: border-radius .2s ease-in-out ;
+  }
+} */
+
+/* @media (min-width:700px) {
+  .square {
+    border: 25px solid rgba(244, 17, 81, 0.865);
+    background-color: #77cd96;
+    border-radius: 50%;
+    transition: border-radius .2s cubic-bezier(0.66, 0.32, 0.53, 1.01) ;
+  }
+} */
+
+/* 
+@media (min-height:400px) {
+  .square {
+    border: 25px solid rgba(244, 17, 81, 0.865);
+    background-color: #77cd96;
+    border-radius: 50%;
+    transition: border-radius .2s cubic-bezier(0.66, 0.32, 0.53, 1.01) ;
+  }
+} */
+
+
+@media (max-height:400px) {
+  .square {
+    border: 25px solid rgba(244, 17, 81, 0.865);
+    background-color: #77cd96;
+    border-radius: 50%;
+    transition: border-radius .2s cubic-bezier(0.66, 0.32, 0.53, 1.01) ;
+  }
 }

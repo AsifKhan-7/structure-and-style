@@ -33,6 +33,14 @@ span {
   vertical-align: middle;
 }
 
-img + img {
+img {
   margin-left: -1rem;
+}
+
+.image-container {
+  display: inline-flex;
+  justify-self: flex-end;
+  flex-direction: row-reverse;
+  vertical-align: middle;
+  margin: 32px;
 }

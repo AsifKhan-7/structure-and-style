@@ -19,10 +19,10 @@ h1 {
 }
 
 .parent {
-  flex-wrap: wrap;
+  /* flex-wrap: wrap; */
   gap: 15px 0;
   /* padding: 10px;*/
-  border: 4px solid indianred; 
+  border: 4px solid indianred;
   display: flex;
   /* justify-content: center; */
   /* justify-content: space-between; */
@@ -43,16 +43,24 @@ h1 {
   /* width: 100%; */
   /* flex-basis: 100%;   item ka initial size main axis ke along specify karti hai. Yeh size tab apply hota hai jab flex container mein space distribute ki jaati hai */
   /* flex-basis: 100px; */
+  /* margin-inline: auto; */
+  /* margin-block: auto; */
+  /* order: 2; */
+  flex: 100px 2 3;
+  /* flex-basis in px, flex-grow, flex-shrink */
 }
 
 .parent p {
   /* border: 4px solid darkkhaki; */
   background-color: darkkhaki;
+  /* margin-block: 0; */
+  margin: 0;
+  /* margin-inline: auto; */
   /* margin-left: auto;
   margin-right: auto;
   margin-top: auto;
   margin-bottom: auto; */
-  margin: auto;
+  /* margin: auto; */
   /* margin-top: 0;
   margin-bottom: 0; */
   /* flex-shrink: 0;  */
@@ -68,11 +76,16 @@ h1 {
   /* flex-grow: 1; */
   /* width: 400px; */
   /* width: 100%; */
-  height: 150px;
+  /* height: 150px; */
   /* flex-basis: 100%; */
   /* flex-basis: 100px; */
+  /* margin-left: auto;
+  margin-right: auto; */
+  /* order: 1; */
+  /* align-self: self-end; */
 }
 
-.parent > * {
-  width:200px;
-}
+/* .parent > * {
+  width: 200px;
+  text-align: center;
+} */
