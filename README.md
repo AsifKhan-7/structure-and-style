@@ -66,3 +66,9 @@ div {
 position itself according to viewport
 ```
 unset :  element ko static postion me convert karne ke liye
+
+## Formatting Context
+
+```
+It's an area in which elements are laid out.
+```

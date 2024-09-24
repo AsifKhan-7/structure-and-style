@@ -1,0 +1,20 @@
+* {
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+.container {
+  background-color: #0b9191;
+  display: flow-root;
+}
+img {
+  float: left;
+  margin-right: 0.5rem;
+  margin-left: 0.5rem;
+  width:400px;
+}
+
+.first-para {
+  /* background-color: #1998ed; */
+  color: #1e1e1e;
+  /* clear: left; */
+}
