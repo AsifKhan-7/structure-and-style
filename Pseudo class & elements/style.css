@@ -1,0 +1,51 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+body {
+  padding: 2rem;
+}
+
+h3::before {
+  content: "This content before heading.";
+  margin-right: 5px;
+  color: #fed961;
+  
+}
+h3::after {
+  content: "This content after heading";
+  margin-right: 5px;
+  color: #8661fe;
+
+}
+
+.required::after {
+  content: "*";
+  color: #ff3700e0;
+  font-size: 15px;
+}
+.primary-btn {
+  display: inline-block;
+  padding: 10px;
+
+}
+
+.primary-btn:visited {
+  color: coral;
+
+}
+.primary-btn:hover {
+  color: #50b9ff;
+}
+
+
+.primary-btn:active {
+  color: #000;
+  background-color: #fff;
+  border: 2px solid #50b9ff;
+  padding: 8px;
+  border-radius: 5px;
+}

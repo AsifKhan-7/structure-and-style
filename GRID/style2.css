@@ -5,11 +5,22 @@
 .container {
   background-color: lightblue;
   display: grid;
-  grid-template-columns: repeat(4, 100px);
+  min-height: 65vh;
+
+  /* grid-template-columns: repeat(4, 100px); */
+  /* grid-auto-columns: 100px; */
+  /* grid-auto-rows: 100px; */
+
+  /* grid-template-rows: repeat(6, 100px); */
+  /* grid-template: repeat(6, 100px) / repeat(4, 100px); */
+
+  /* grid-auto-flow: column;*/
   /* column-gap: 20px; */
   /* row-gap: 20px; */
   /* gap: 10px; */
 }
+
+/* grid-template: repeat(6, 100px) / repeat(4, 100px);  This is shorthand for              grid-template-rows: repeat(6, 100px); and grid-template-columns: repeat(4, 100px);  1st value will remain row's and other ons column's  both value are necessary to give if you want to set only row or column, one value will have to set equal to none */
 
 .box {
   color: white;
@@ -19,11 +30,21 @@
 
 .box-1 {
   background-color: green;
-  grid-column-start: 3;
-  grid-row-start: 2;
-  grid-column-end: 5;
-  grid-row-end: 4;
+  /* grid-column-start: 3;
+  grid-column-end: 5; */
+
+  /* grid-column: 3 / 5;
+  grid-row: 2 / 4; */
+  /* This is the shortcut of the above prop. columns*/
+  /* Similarly for rows */
 }
+
+/*grid-column-start: 3; This prop. will start this element from column 3 which is starting from line no.3 and 
+grid-column-end: 5; by this prop. the element will span in column 4 which is ending at line no.5  */
+
+/* grid-row-start: 2; 
+  Similarly for rows as columns
+  grid-row-end: 4; */
 
 .box-2 {
   background-color: blueviolet;
